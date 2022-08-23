@@ -3,7 +3,7 @@ l=list(map(int,input().split()))
 l1=[]
 for i in l:
     c=0
-    while(i>9):
+    while(i>0):
         r=i%10
         c+=1
         i=i//10
