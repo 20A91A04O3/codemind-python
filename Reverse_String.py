@@ -1,2 +1,4 @@
 s=input()
-print(s[::-1])
+s1=s.split()
+s2=s1[::-1]
+print(' '.join(s2))
