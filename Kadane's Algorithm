@@ -1,0 +1,12 @@
+t=int(input())
+for i in range(t):
+    n=int(input())
+    l=list(map(int,input().split()))
+    l1=[]
+    for i in range(0,len(l)+1):
+        for j in range(i+1,len(l)+1):
+            l1.append(sum(l[i:j]))
+    if sum(l)>max(l1):
+        print(sum(l))
+    else:
+        print(max(l1))
