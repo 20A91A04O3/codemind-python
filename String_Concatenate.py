@@ -1,0 +1,5 @@
+s1=input()
+s2=input()
+s1=list(s1)+list(s2)
+s1=sorted(s1)
+print(''.join(s1))
