@@ -1,0 +1,8 @@
+t=int(input())
+for i in range(t):
+    n=input()
+    s=n[::-1]
+    if s==n:
+        print(True)
+    else:
+        print(False)
